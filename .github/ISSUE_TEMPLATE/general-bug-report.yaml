@@ -55,10 +55,9 @@ body:
       label: Steps To Reproduce
       description: Describe steps to reproduce the behavior.
       placeholder: Include steps to reproduce the behavior.
-        1. Select this tab...
-        2. Use this selection of filters...
+        1. Select the tab '...'
+        2. Use this selection of filters '...'
         3. Run '...'
-        4. See error...
-        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+        4. See error '...'
     validations:
       required: true
