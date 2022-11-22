@@ -25,7 +25,5 @@ body:
     attributes:
       label: Feature request description
       description: What would you like us to implement?
-      placeholder: 
-        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
       required: true
