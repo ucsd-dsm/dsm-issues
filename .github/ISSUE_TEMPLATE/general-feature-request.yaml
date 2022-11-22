@@ -1,0 +1,33 @@
+name: New feature requests
+description: Request a new feature
+title: "[Request]: "
+labels: ["request", "triage"]
+assignees:
+  - ocelhay
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in our products! 
+        Please make sure **NOT TO INCLUDE ANY PII INFORMATION** in the text or in the screenshots.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App/Dashboard
+      description: For what app/dashboard would you like to request a new feature?
+      options:
+        - ABCD Metrics
+        - ABCD RA Tools
+        - HBCD TLFB
+        - HBCD RR
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Feature request description
+      description: What would you like us to implement?
+      placeholder:
+        What would you like us to implement?
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: true
