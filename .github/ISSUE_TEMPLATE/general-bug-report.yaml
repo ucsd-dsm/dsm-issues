@@ -19,7 +19,6 @@ body:
         - ABCD Metrics
         - ABCD RA Tools
         - HBCD TLFB
-        - HBCD RR
     validations:
       required: true
   - type: dropdown
